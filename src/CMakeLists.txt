@@ -212,6 +212,7 @@ target_link_libraries(salmon
     graphdump
     ntcard
     gff
+    alevin_core
     ${Boost_LIBRARIES}
     ${ICU_LIBS}
     ${STADEN_LIBRARIES} ${CURL_LIBRARIES}
@@ -226,7 +227,6 @@ target_link_libraries(salmon
     ${NON_APPLECLANG_LIBS}
     ksw2pp
 ## PUFF_INTEGRATION    
-    alevin_core
     ${ASAN_LIB}
     ${FAST_MALLOC_LIB}
     ${TBB_LIBRARIES}
